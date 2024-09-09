@@ -7,5 +7,18 @@ export default {
   theme: {
     extend: {},
   },
+  fontFamily: {
+    inter: ['Inter', 'sans-serif'],
+    cursive: ['Ephesis', 'cursive'],
+  },
+  container: {
+    center: true,
+    padding: {
+      DEFAULT: '1rem',
+      sm: '2rem',
+      lg: '3rem',
+      xl: '4rem',
+    }
+  },
   plugins: [],
 }
