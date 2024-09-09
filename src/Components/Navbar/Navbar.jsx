@@ -19,14 +19,14 @@ const NavLinks = [
 const Navbar = () => {
     return (
         <div className="bg-white shadow-sm">
-            <div className="container">
+            <div className="container flex justify-between py-4 sm:py-3">
                 {/* logo section */}
                 <div className="font-bold">
                     logo
                 </div>
                 {/* navlinks section */}
                 <div>
-                    <ul>
+                    <ul className="flex items-center gap-10">
                         {
                            NavLinks.map(({id, name, link})=>(
                             <li key={id}>
