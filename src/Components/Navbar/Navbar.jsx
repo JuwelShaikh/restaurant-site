@@ -13,7 +13,7 @@ const NavLinks = [
         id: 3,
         name: 'Contact',
         link: '/#',
-    },
+    }
 ];
 
 const Navbar = () => {
@@ -24,14 +24,16 @@ const Navbar = () => {
                 <div className="font-bold">
                     logo
                 </div>
+                {/* navlinks section */}
                 <div>
                     <ul>
                         {
-                            NavLinks.map(({ id, name, link }) => {
-                                <li key={id}>
-                                    <a href={link}>{name}</a>
-                                </li>
-                            })
+                           NavLinks.map(({id, name, link})=>(
+                            <li key={id}>
+                                <a href={link}>{name}</a>
+                            </li>
+                           )
+                        )
                         }
                     </ul>
                 </div>
