@@ -1,10 +1,21 @@
 import HeroImg from '../../assets/hero.png'
+import HeroBg from '../../assets/heroBg.png'
 import PrimaryButton from '../Shared/PrimaryButton'
+
+
+const bgStyle = {
+    backgroundImage: `url(${HeroBg})`,
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center',
+    backgroundSize: 'cover',
+    width: '100%',
+    height: '100%'
+}
 
 const Hero = () => {
     return (
         <>
-            <div className="">
+            <div style={bgStyle} className="">
                 <div className="container p-16 sm:py-0">
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 place-items-center min-h-[600px]">
                         {/* textArea */}
