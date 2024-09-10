@@ -1,5 +1,6 @@
 import About from "./Components/About/About"
 import Banner from "./Components/Banner/Banner"
+import Footer from "./Components/Footer/Footer"
 import Hero from "./Components/Hero/Hero"
 import Navbar from "./Components/Navbar/Navbar"
 import WhyChoose from "./Components/WhyChoose/WhyChoose"
@@ -13,6 +14,7 @@ const App = () => {
       <WhyChoose/>
       <Banner/>
       <About/>
+      <Footer/>
     </div>
   )
 }
