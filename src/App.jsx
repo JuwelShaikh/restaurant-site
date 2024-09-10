@@ -10,8 +10,8 @@ const App = () => {
     <div className="overflow-x-hidden">
       <Navbar/>
       <Hero/>
-      <Banner/>
       <WhyChoose/>
+      <Banner/>
       <About/>
     </div>
   )
