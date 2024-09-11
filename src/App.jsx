@@ -1,3 +1,4 @@
+import { useState } from "react"
 import About from "./Components/About/About"
 import Banner from "./Components/Banner/Banner"
 import Footer from "./Components/Footer/Footer"
@@ -10,13 +11,12 @@ import WhyChoose from "./Components/WhyChoose/WhyChoose"
 const App = () => {
   return (
     <div className="overflow-x-hidden">
-      <Navbar/>
-      <Hero/>
-      <WhyChoose/>
-      <Banner/>
-      <About/>
-      <LoginPage/>
-      <Footer/>
+      <Navbar />
+      <Hero />
+      <WhyChoose />
+      <Banner />
+      <About />
+      <Footer />
     </div>
   )
 }
