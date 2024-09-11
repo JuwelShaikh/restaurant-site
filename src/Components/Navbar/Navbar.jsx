@@ -38,7 +38,7 @@ const DropdownLinks = [
 
 const Navbar = () => {
     return (
-        <div className="bg-white shadow-md">
+        <div data-aos='fade' className="bg-white shadow-md">
             <div className="container flex justify-between py-4 sm:py-3">
                 {/* logo section */}
                 <div className="font-bold text-3xl cursor-pointer">
