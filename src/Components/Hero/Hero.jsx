@@ -15,7 +15,7 @@ const bgStyle = {
 const Hero = () => {
     return (
         <>
-            <div  style={bgStyle} className="">
+            <div data-aos="fade-up-right" style={bgStyle} className="">
                 <div className="container p-16 sm:py-0">
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 place-items-center min-h-[600px]">
                         {/* textArea */}
