@@ -5,20 +5,19 @@ import Footer from "./Components/Footer/Footer";
 import Hero from "./Components/Hero/Hero";
 import Navbar from "./Components/Navbar/Navbar";
 import WhyChoose from "./Components/WhyChoose/WhyChoose";
-import AOS from 'aos';
-
+import Aos from "aos";
 
 const App = () => {
 
-  useEffect(() => {
-    AOS.init({
-      offset: 100,
-      duration: 800,
-      easing: 'ease-in-sine',
-      delay: 100,
+  useEffect(()=>{
+    Aos.init({
+      offset:100,
+      duration:800,
+      easing:'ease-in-sine',
+      delay:100,
     });
-    AOS.refresh();
-  }, []);
+    Aos.refresh()
+  }, [])
 
   return (
     <div className="overflow-x-hidden">
